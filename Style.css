@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 40px ;
+
+
+}
+.profile{
+    width: 355px;
+    border:1px solid black;
+}
+.work{
+    width: 691px;
+    border:1px solid black
+}
+.education{
+    width: 691px;
+    border: 1px solid ;
+}
+  .progress-container {
+            width: 300px;
+            background-color: #e0e0e0;
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .progress-bar {
+            width: 82%;
+            height: 25px;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 25px;
+            color: white;
+            font-weight: bold;
+            border-radius: 25px;
+        }
+        .progress-bar html {
+            width: 82%;
+            height: 25px;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 25px;
+            color: white;
+            font-weight: bold;
+            border-radius: 25px;
+        }
