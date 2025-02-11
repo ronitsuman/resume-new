@@ -4,24 +4,23 @@
     padding: 0;
 }
 .container{
+    width: 100%;
     display: flex ;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
     padding: 20px 40px 20px 40px ;
 
 
 }
 .profile{
-    width: 355px;
+    width: 30%;
     border:1px solid black;
 }
-.work{
-    width: 691px;
-    border:1px solid black
-}
-.education{
-    width: 691px;
-    border: 1px solid ;
+
+.details{
+    width: 700px;
+    border: 1px solid black  ;
 }
   .progress-container {
             width: 300px;
